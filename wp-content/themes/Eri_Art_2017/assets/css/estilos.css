@@ -1,0 +1,261 @@
+	
+	body
+	{
+		background: white;
+		overflow-x: hidden;
+	}
+
+	/*Logo*/
+		
+		.logo-theme
+		{
+			height: 100px;
+			width: 200px;
+			margin-left: 20px;
+			clear: left;
+			
+		}
+
+		
+
+    /*Fin*/
+
+    /* Menu */
+
+    	.navbar-alternative
+    	{
+    		
+    		font-size: 1.25em;
+    		position: relative;
+    	    border: 1px solid transparent;
+    		 min-height: 50px;
+    		-moz-box-shadow: 0px 10px 10px 0px #6b6b6b;
+   			 -webkit-box-shadow: 0px 10px 10px 0px #6b6b6b;
+             box-shadow: 0px 0px 10px 0px #6b6b6b;
+             border-bottom: 1px solid #CACACA;
+
+    	}
+
+    	.navbar-alternative ul
+    	{
+    		width: 100%;
+    	}
+
+    	.navbar-alternative li
+    	{
+    		width: 200px;
+    	}
+
+  
+    	.navbar-header
+    	{
+    		width: 800px !important;
+    	}
+		
+		.site-description, .site-title
+		{		
+			display: inline !important;
+			
+		}
+
+		.site-description
+		{
+			clear: left;
+		}
+
+		.navbar-nav
+		{
+			padding-top: 20px; 
+		}
+
+		.navbar-toggle
+		{
+			z-index: 9999;
+			background-color: red;
+			left: -50%;
+		}
+
+    /*Fin*/
+
+    /*Carrusel*/
+
+	.item 
+	{
+		height: 125vh;
+	}
+
+	.item img
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.carousel-caption
+	{
+		font-size: 2em;
+	}
+
+
+
+    /*Fin*/
+
+    /*  Post Normales */
+
+
+    	.blog-row
+    	{
+			margin-top: 30px;
+			border-style: unset;
+			border: solid 1px;
+			box-sizing: border-box;
+			box-shadow: 10px 10px 5px 5px gray;
+    	}
+
+    	.img-blog
+    	{
+    		height: 400px; 
+    		background-size: 100% 100%;
+    		background-position:center center;
+			background-repeat: no-repeat;
+    	}
+
+    	.blog-body
+    	{
+    		   /* background: url(http://localhost/word_/wp-content/uploads/2017/06/15625101_727302157434659_7637823042072084480_n.jpg);
+    		   */
+   				 z-index: -500;
+   				 background-repeat: no-repeat;
+    			background-attachment: fixed;
+    		    background-size: 100% 100%;
+    	}
+
+
+    /* Fin*/
+
+		    /* Posts Painting */
+
+			.header-post 
+			{
+			/*width: 100%;*/
+			height: 600px;
+			background-size: 100% 100%;
+			background-position:center center;
+			background-repeat: no-repeat;
+			cursor: pointer;
+			/*background-attachment: fixed;*/
+			position: relative;
+			}
+
+
+			.post-title 
+			{
+				left: 0;
+		    	top: 0;
+		    	right: 0;
+		    	bottom: 0;
+		    	position: absolute;
+		    	transition: all .5s;
+		    	text-decoration: none;
+			}
+
+
+		    .post-title > h2
+		    {
+		        bottom: -30%;
+		    	position: relative;
+		    	transition: all .5s;
+		    }
+
+		    .post-title h2
+		    {
+		    	display: none;
+		    }
+
+					.header-post:hover .post-title 
+				    {
+				    	
+						
+						background: rgba(255,255,255, 0.5);
+						
+				    }
+
+				    .header-post:hover .post-title h2
+				    {
+				    	display: block;
+				    	color: #2c3e50;
+						text-shadow: 2px 3px 2px #2c3e50;
+				    }
+
+				    .post-title a
+				    {
+						text-decoration: none;
+				    }
+
+		    /*Fin*/
+
+    /* Ultimos drawings*/
+
+    .last_drawings
+    {
+    	list-style: none;
+    }
+
+    .last_drawings img
+    {
+    	height: 250px;
+    	width: 250px;
+    	background-position: center center;
+
+   
+    }
+
+    .last_drawings li
+    {
+    	transition-timing-function: ease-out;
+    	transition: 1s;
+    	margin-bottom: 20px;
+
+    }
+
+    .last_drawings li:hover 
+    {
+    	opacity: 0.5;
+    	cursor: pointer;
+    	background-color: gray;
+    	border: 1px solid gray;
+    	
+    }
+
+
+    /* Footer */
+
+
+		.footer
+		{
+			height: auto;
+			width: 100%;
+			background: lightgreen;
+			margin-top: 25px 0;
+		}
+
+		.copyright
+		{
+			padding: 25px 0px;
+			text-align: center;
+		}
+
+
+
+    /*Fin */
+
+    /* Clases adicionales */
+
+    .mt-40
+    {
+    	margin-top: 40px;
+    }
+
+    .mb-40
+    {
+    	margin-bottom: 40px;
+    }
